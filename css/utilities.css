@@ -1,0 +1,211 @@
+/* Text styles */
+
+.text-primary {
+  color: #283032
+}
+
+.text-secondary {
+  color: #5b6cb4
+}
+
+
+/* Background */
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #363980;
+}
+
+/* Background color*/
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+/* Button*/
+
+.btn {
+  padding: 10px 30px;
+  margin: 50px 10px;
+  border-radius: 5px;
+  color: #fff
+}
+
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 10px;
+  height: 100%;
+}
+
+.flex-items>div {
+  padding: 20px;
+}
+
+/* Flex columns */
+
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-columns .column .column-2 h2,
+.column-2 .kontaktni-obrazec h2 {
+  font-size: 30px;
+  font-weight: 500px;
+  padding: 20px 20px;
+}
+
+.flex-columns .column .column-2 p {
+  padding: 20px 100px;
+}
+
+/* Section header */
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+.cases {
+  height: 100px;
+  width: auto;
+}
+
+/* Flex grid*/
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+.kontaktni-obrazec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.form-control {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.form-control input {
+  padding: 3px;
+}
+
+::placeholder,
+.form-control .sporocilo {
+  color: var(--primary-color);
+  padding: 3px;
+}
+
+/*Footer*/
+
+.footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  padding: 10px 20px;
+}
+
+.social i {
+  color: #fff;
+}
+
+.copyright {
+  font-size: 10px;
+  margin: 20px 0;
+}

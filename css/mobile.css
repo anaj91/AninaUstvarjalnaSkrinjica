@@ -1,0 +1,51 @@
+* {
+  overflow-x: hidden;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 30px 10px;
+}
+
+
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+
+.hero .content {
+  height: 350px;
+  overflow-y: hidden;
+  margin-top: 200px;
+}
+
+.hero .content h1 {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+
+.flex-items {
+  flex-direction: column;
+}
+
+.flex-columns .row {
+  flex-direction: column;
+}
+
+
+.flex-columns .column .column-2 p {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.flex-grid .row {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.flex-grid .column {
+  max-width: 100%;
+}
